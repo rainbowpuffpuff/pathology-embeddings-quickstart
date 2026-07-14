@@ -1,0 +1,8 @@
+{
+  "sample": "NCBI10",
+  "n_spots": 138,
+  "mpp": 0.8519412951664862,
+  "spot_size_level0": 131,
+  "embedding_dim": 1536,
+  "mean_cosine_similarity_hopt0_uni2": 0.02951068803668022
+}

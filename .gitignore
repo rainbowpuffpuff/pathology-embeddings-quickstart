@@ -1,0 +1,24 @@
+.env
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Large raw data files (download with scripts)
+data/wsis/*.tif
+data/wsis/*.tiff
+data/wsis/*.svs
+data/st/*.h5ad
+data/st/*.h5
+data/st/*.zarr
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

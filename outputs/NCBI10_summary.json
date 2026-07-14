@@ -1,0 +1,82 @@
+{
+  "wsi": {
+    "file": "NCBI10.tif",
+    "dimensions": [
+      8073,
+      8593
+    ],
+    "level_dimensions": [
+      [
+        8073,
+        8593
+      ],
+      [
+        4036,
+        4296
+      ],
+      [
+        2018,
+        2148
+      ],
+      [
+        1009,
+        1074
+      ],
+      [
+        504,
+        537
+      ],
+      [
+        252,
+        268
+      ],
+      [
+        126,
+        134
+      ]
+    ],
+    "mpp": 0.8519412951664862,
+    "objective_power": null,
+    "thumbnail": "/home/q/job_automation/projects/pathology-embeddings-quickstart/outputs/NCBI10_thumbnail.png"
+  },
+  "st": {
+    "file": "NCBI10.h5ad",
+    "n_spots": 138,
+    "n_genes": 15997,
+    "obs_columns": [
+      "n_genes_by_counts",
+      "log1p_n_genes_by_counts",
+      "total_counts",
+      "log1p_total_counts",
+      "pct_counts_in_top_50_genes",
+      "pct_counts_in_top_100_genes",
+      "pct_counts_in_top_200_genes",
+      "pct_counts_in_top_500_genes",
+      "total_counts_mito",
+      "log1p_total_counts_mito",
+      "pct_counts_mito"
+    ],
+    "var_columns": [
+      "n_cells_by_counts",
+      "mean_counts",
+      "log1p_mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "log1p_total_counts",
+      "mito"
+    ],
+    "spatial_key": "spatial",
+    "spatial_shape": [
+      138,
+      2
+    ],
+    "spatial_range": {
+      "x_min": 975.3193124999999,
+      "x_max": 7852.506187499999,
+      "y_min": 1533.720303030303,
+      "y_max": 8334.306758522727
+    },
+    "expression_mean": 0.3913772781671926,
+    "expression_nonzero": 0.18984039579884995
+  }
+}
